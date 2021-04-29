@@ -1,6 +1,6 @@
 # callisto
 
-This is the software for linux (or similar systems) needed to be part of the (e-callisto)[http://www.e-callisto.org] network.
+This is the software for linux (or similar systems) needed to be part of the [e-callisto](http://www.e-callisto.org) network.
 
 # Installation (on Debian or Ubuntu)
 

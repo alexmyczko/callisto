@@ -1,0 +1,12 @@
+callisto (1.1.0-2) unstable; urgency=medium
+
+  * Add Vcs fields.
+  * Bump standards version to 4.5.0.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Thu, 06 Feb 2020 08:16:58 +0100
+
+callisto (1.1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #948406)
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Wed, 08 Jan 2020 11:45:26 +0100

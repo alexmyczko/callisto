@@ -1,0 +1,22 @@
+callisto for Debian
+-------------------
+
+CONFIGURATION
+
+in /usr/share/callisto/examples you find an example configuration for a station
+to be put in /etc/callisto
+
+AUTOMATIC LAUNCH
+
+cronjobs you might want to add, crontab -e
+@reboot /usr/bin/screen -dmS callisto /usr/sbin/callisto -d
+01 * * * * /var/www/callisto/ftpupload.pl
+16 * * * * /var/www/callisto/ftpupload.pl
+31 * * * * /var/www/callisto/ftpupload.pl
+46 * * * * /var/www/callisto/ftpupload.pl
+
+SUBMIT DATA TO E-CALLISTO
+
+see examples/ftpupload.pl
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Tue, 28 May 2019 16:16:34 +0200

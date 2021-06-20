@@ -24,4 +24,7 @@ Easily to do with cronjobs. You might want to add, `crontab -e`
 
 # Submit data to E-CALLISTO
 
+If you want to send data, make sure to run callisto with `TZ=UTC`.
+You can check your timezone setting with `date` vs `date -u`.
+
 see `examples/ftpupload.pl`

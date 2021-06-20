@@ -8,8 +8,8 @@ This is the software for linux (or similar systems) needed to be part of the [e-
 
 # Configuration
 
-in /usr/share/callisto/examples you find an example configuration for a station
-to be put in /etc/callisto
+in `/usr/share/callisto/examples` you find an example configuration for a station
+to be put in `/etc/callisto`
 
 # Automatic Launch
 

@@ -26,6 +26,10 @@ Easily to do with cronjobs. You might want to add, `crontab -e`
 46 * * * * /var/www/callisto/ftpupload.pl
 ```
 
+# Compressing archived data
+
+`find /where/you/store/your/callisto/fits/files -name *.fit -exec xz -T0 -v {} \;`
+
 # Submit data to E-CALLISTO
 
 If you want to send data, make sure to run callisto with `TZ=UTC`.

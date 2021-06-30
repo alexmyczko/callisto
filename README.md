@@ -2,6 +2,10 @@
 
 This is the software for linux (or similar systems) needed to be part of the [e-callisto](http://www.e-callisto.org) network.
 
+# Example Station in Grotniki, Poland
+
+http://pl.aiei.ch/
+
 # Installation (on Debian or Ubuntu)
 
 `apt install callisto`

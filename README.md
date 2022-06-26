@@ -30,6 +30,10 @@ Easily to do with cronjobs. You might want to add, `crontab -e`
 
 `find /where/you/store/your/callisto/fits/files -name *.fit -exec xz -T0 -v {} \;`
 
+# Ubuntu 22.04
+
+`apt remove brltty`
+
 # Submit data to E-CALLISTO
 
 If you want to send data, make sure to run callisto with `TZ=UTC`.
